@@ -12,13 +12,30 @@ color: red;
 .font-size{
   font-size: 20px;
 }
-/* font-size フォントサイズ大きさを変える。 pxで表す*/
+/* font-size フォントサイズ大きさを変える。 pxで指定します。*/
 
 #idselector{
   color: blue;
 }
 
+.height-width{
+  height: 50px;
+  width : 50%;
+  background-color:lightblue;
+}
+/* heightプロパティは高さを決めます。pxで指定出来ます。 */
+/* widthプロパティは幅を決めます。pxで指定出来ます。 */
+/* ％を使うと、子要素のサイズを親要素に対して何％で設定するか決められます。 */
+/* background-colorプロパティで背景色を設定出来ます。 */
 
+.list{
+  list-style: square;
+}
+/* noneにすると箇条書きの黒点を消せます。squareにすると四角で表現できます。 */
 
+.list2{
+color: red;
+list-style: none;
+}
 
 

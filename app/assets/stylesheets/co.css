@@ -9,6 +9,15 @@ color: red;
 }
 /* 色を変える */
 
+.font-size{
+  font-size: 20px;
+}
+/* font-size フォントサイズ大きさを変える。 pxで表す*/
+
+#idselector{
+  color: blue;
+}
+
 
 
 

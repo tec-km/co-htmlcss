@@ -39,3 +39,28 @@ list-style: none;
 }
 
 
+.main{
+  height: 500px;
+  width: 100%;
+  background-color:white;
+  display: flex;   /*  子要素を横並びにする。 */
+  justify-content: space-around;  /* 両端1 間2 */
+ }
+ 
+ .left-content{
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+ }
+ 
+ .center-content{
+  width: 50px;
+  height: 50px;
+  background-color: skyblue;
+ }
+ 
+ .right-content{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+ }

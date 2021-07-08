@@ -40,7 +40,7 @@ list-style: none;
 
 
 .main{
-  height: 500px;
+  height: 100px;
   width: 100%;
   background-color:white;
   display: flex;   /*  子要素を横並びにする。 */
@@ -64,3 +64,37 @@ list-style: none;
   height: 50px;
   background-color: pink;
  }
+
+
+.border{
+ border: 5px solid black;
+}
+/* borderは外線のこと太さとスタイルを決める
+solid（1本線） double（2本線） */
+
+
+.padding{
+  padding: 20px 20px;
+  background-color: red;
+}
+/*  
+paddingは箱の内側の余白を決めます。
+padding: 1px;	上下左右
+padding: 1px 1px;	上下・左右
+padding: 1px 1px 1px;	上・左右・下
+padding: 1px 1px 1px 1px;	上・右・下・左
+*/
+
+.margin{
+  margin: 20px 20px;
+  background-color:lightblue;
+}
+/* 
+marginは箱の外側の余白を決めます。
+margin: 1px;	上下左右
+margin: 1px 1px;	上下・左右
+margin: 1px 1px 1px;	上・左右・下
+margin: 1px 1px 1px 1px;	上・右・下・左
+ */
+
+

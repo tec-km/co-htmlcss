@@ -16,7 +16,7 @@
 
 <p class="color">カラーを変えます。赤にしてます。 </p>
 <%#> cssのcolorセレクタを指定しています。 <%>
-<p class="font-size">フォントの大きさを変える。20pxにしてます。 </p>
+<p class="font-size">フォントの大きさを変えます。20pxにしてます。 </p>
 
 <p id="idselector"> idセレクタの指定用です。色を変えます。</p>
 <%#> idセレクタは指定したid名をcssのセレクタとして使用することができます。
@@ -53,9 +53,15 @@ borderによって外枠を作ります。
   </div>
 </div>
 
-
+<div class="position-oya"> 
+親要素です。ここにposition: relative;を指定したので、これを基準に子要素の位置が決まります。
+  <div class="position-ko">
+  子要素です。親要素から20px 20pxの位置になります。 
+  </div>
+</div>
 
   
-
-
+<div >
+  <img src="images/sample.png" alt="サンプル画像です">
+</div>
  

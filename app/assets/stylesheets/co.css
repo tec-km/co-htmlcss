@@ -97,4 +97,23 @@ margin: 1px 1px 1px;	上・左右・下
 margin: 1px 1px 1px 1px;	上・右・下・左
  */
 
+ .position-oya{
+  position: relative;
+  background-color:red; 
+  border: 1px solid black;
+  height: 50px;
+}
+ .position-ko{
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ background-color: lightblue;
+ }
+ /* positionは要素の配置方法を決めることが出来ます。
+position: relative;	現在の位置を基準に相対的な位置を決める
+position: absolute;	特定の地点を基準に絶対的な位置を決める（デフォルトの基準はウィンドウ左上）
+position: fixed;	要素を指定した位置に固定する
+  */
+
+
 

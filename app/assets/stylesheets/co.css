@@ -115,5 +115,14 @@ position: absolute;	特定の地点を基準に絶対的な位置を決める（
 position: fixed;	要素を指定した位置に固定する
   */
 
+  .contact-form {
+    width: 600px;
+  }
+  
 
-
+  .name-form {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid white;
+    display: block;
+  }

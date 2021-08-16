@@ -121,8 +121,29 @@ position: fixed;	要素を指定した位置に固定する
   
 
   .name-form {
+    margin: 0 auto 10px;
+  }
+  
+  .message-form {
+    height: 150px;
+    margin: 0 auto 30px;
+  }
+  
+  .name-form,
+  .message-form {
     width: 500px;
     padding: 15px;
+    border: 1px solid black;
+    display: block;
+  }
+
+  .send {
+    width: 200px;
+    margin: 0 auto; 
+    /* 中央寄せ */
+    padding: 15px;
     border: 1px solid white;
+    color: white;
+    background-color: orange;
     display: block;
   }
